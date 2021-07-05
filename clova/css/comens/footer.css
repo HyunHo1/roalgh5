@@ -1,0 +1,300 @@
+@charset "uft-8";
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: #151515;
+}
+
+.inner-footer{
+    width: 100%;
+    max-width: 1800px;
+    height: 150px;
+    margin: 0 auto;
+}
+.inner-footer .footer-area{
+    width: 100%;
+    height: 100px;
+    border: 0px solid;
+    position: relative;
+    top:25px;
+}
+.inner-footer .topfooter{
+    width: 100%;
+    height: 30px;
+}
+.inner-footer .topfooter .inner-top{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.inner-footer .topfooter ul li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+.inner-footer .topfooter ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner-footer .topfooter ul li:nth-child(1){
+    margin-left: 0;
+}
+.inner-footer .topfooter span.lo{
+    width: 220px;
+    height: 30px;
+    display: block;
+}
+.inner-footer .bottomfooter{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.inner-footer .bottomfooter ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner-footer .bottomfooter ul li{
+    width: 33.3333%;
+    height: 30px;
+    border: 0px solid;
+    float: left;
+    box-sizing: border-box;
+}
+
+.inner-footer .bottomfooter ul li.la {
+    font-size: 17px;
+    font-weight: bold;
+    color: #565656;
+}
+
+.inner-footer .bottomfooter ul li.lal{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #565656;
+}
+.inner-footer .bottomfooter ul li.lala {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    float: right;
+    color: #565656;
+}
+.inner-footer .bottomfooter ul li.la a{
+    color: #565656;
+}
+.inner-footer .bottomfooter ul li.lala a{
+    margin-left: 10px;
+    color: #565656;
+    text-align: right;
+}
+.inner-footer .bottomfooter ul li.lala a:nth-child(1){
+    margin-left: 228px;
+}
+/*media*/
+@media only screen and (max-width:1024px) {
+    .inner-footer{
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .inner-footer .footer-area{
+        width: 100%;
+        height: 100px;
+        border: 0px solid;
+        position: relative;
+        top:25px;
+    }
+    .inner-footer .topfooter{
+        width: 100%;
+        height: 30px;
+    }
+    .inner-footer .topfooter .inner-top{
+        width: 180px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 422px;
+    }
+    .inner-footer .topfooter ul li{
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-left: 20px;
+    }
+    .inner-footer .topfooter ul::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .inner-footer .topfooter ul li:nth-child(1){
+        margin-left: 0;
+    }
+    .inner-footer .topfooter span.lo{
+        width: 220px;
+        height: 30px;
+        position: absolute;
+        bottom: -65px;
+        left: 430px;
+        display: block;
+    }
+    .inner-footer .bottomfooter{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        bottom: 30px;
+    }
+    .inner-footer .bottomfooter ul::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .inner-footer .bottomfooter ul li{
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        border: 0px solid;
+        float: none;
+        box-sizing: border-box;
+    }
+    
+    .inner-footer .bottomfooter ul li.la {
+        font-size: 17px;
+        font-weight: bold;
+        color: #565656;
+    }
+    
+    .inner-footer .bottomfooter ul li.lal{
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        color: #565656;
+    }
+    .inner-footer .bottomfooter ul li.lala {
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        float: none;
+        color: #565656;
+    }
+    .inner-footer .bottomfooter ul li.la a{
+        color: #565656;
+    }
+    .inner-footer .bottomfooter ul li.lala a{
+        margin-left: 10px;
+        color: #565656;
+        text-align: center;
+    }
+    .inner-footer .bottomfooter ul li.lala a:nth-child(1){
+        margin-left: 0px;
+    }
+    
+}
+
+@media only screen and (max-width:764px) {
+    .inner-footer{
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .inner-footer .footer-area{
+        width: 100%;
+        height: 100px;
+        border: 0px solid;
+        position: relative;
+        top:25px;
+    }
+    .inner-footer .topfooter{
+        width: 100%;
+        height: 30px;
+    }
+    .inner-footer .topfooter .inner-top{
+        width: 180px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        left: 292px;
+    }
+    .inner-footer .topfooter ul li{
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-left: 20px;
+    }
+    .inner-footer .topfooter ul::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .inner-footer .topfooter ul li:nth-child(1){
+        margin-left: 0;
+    }
+    .inner-footer .topfooter span.lo{
+        width: 220px;
+        height: 30px;
+        position: absolute;
+        bottom: -65px;
+        left: 305px;
+        display: block;
+    }
+    .inner-footer .bottomfooter{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        bottom: 30px;
+    }
+    .inner-footer .bottomfooter ul::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .inner-footer .bottomfooter ul li{
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        border: 0px solid;
+        float: none;
+        box-sizing: border-box;
+    }
+    
+    .inner-footer .bottomfooter ul li.la {
+        font-size: 17px;
+        font-weight: bold;
+        color: #565656;
+    }
+    
+    .inner-footer .bottomfooter ul li.lal{
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        color: #565656;
+    }
+    .inner-footer .bottomfooter ul li.lala {
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        float: none;
+        color: #565656;
+    }
+    .inner-footer .bottomfooter ul li.la a{
+        color: #565656;
+    }
+    .inner-footer .bottomfooter ul li.lala a{
+        margin-left: 10px;
+        color: #565656;
+        text-align: center;
+    }
+    .inner-footer .bottomfooter ul li.lala a:nth-child(1){
+        margin-left: 0px;
+    }
+    
+}

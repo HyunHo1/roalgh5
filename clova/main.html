@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <script src="js/comens/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/comens/reset2.css">
+    <link rel="stylesheet" href="css/index/main.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <h1 class="logo"><a href="main.html"><img src="img/comens/logo.png" alt="z"></a></h1>
+                <span class="menu"><img src="./img/comens/mobileBth.png" alt=""></span>
+
+            <script>
+
+                var spanmenu=$('span.menu');
+                spanmenu.on('click',menufunc);
+                function menufunc() {
+                    $('.gnb').slideToggle();
+                    $('.rightmenu').slideToggle();
+                }
+            </script>
+                <div class="gnb">
+                    <ul>
+                        <li><a href="sub1.html">기술 · 솔루션</a></li>
+                        <li><a href="#">제품</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="">네이바 클로바 앱</a></li>
+                                    <li><a href="">클로바 스마트홈</a></li>
+                                    <li><a href="">명령어 가이드</a></li>
+                                    <li><a href="">스마트 디바이스</a></li>
+                                    <li><a href="">지원기기</a></li>
+                                    <li><a href="">스킬 스토어</a></li>
+                                    <li><a href="">클로바 일상들</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">플랫폼</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="">Platform</a></li>
+                                    <li><a href="">Skill Tools</a></li>
+                                    <li><a href="">Interface Connect</a></li>
+                                    <li><a href="">Skills</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="sub2.html">파트너</a></li>
+                        <li><a href="#">리서치</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="">Research Areas</a></li>
+                                    <li><a href="">Publications</a></li>
+                                    <li><a href="">Events</a></li>
+                                    <li><a href="">Join Us</a></li>
+                                    <li><a href="">Tech Demo</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rightmenu">
+                    <a class="a" href="join.html">Join</a>
+                    <a class="s" href="sign.html">Login</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="sub2">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                //header
+                $('.gnb>ul>li').eq(1).on('mouseover', gnbfunc);
+                $('.gnb>ul>li').eq(2).on('mouseover', gnbfunc);
+                $('.gnb>ul>li').eq(4).on('mouseover', gnbfunc);
+
+                function gnbfunc() {
+                    $('.box').fadeIn(100);
+                    $('.sub2').html($(this).find('.sub').html()).fadeIn(100);
+                }
+
+                $('.box').on('mouseleave', boxfunc);
+                $('.gnb>ul>li').eq(0).on('mouseover', mouseleavefunc);
+                $('.gnb>ul>li').eq(3).on('mouseover', mouseleavefunc);
+
+                function boxfunc() {
+                    $('.box').fadeOut(100);
+                }
+
+                function mouseleavefunc() {
+                    $('.box').fadeOut(100);
+                }
+
+            </script>
+        </div>
+        <div class="content">
+            <div class="nav">
+                <div class="inner-nav">
+                    <div class="gallery">
+                        <ul>
+
+                            <li class="title1">
+                                <video src="img/index/nav0.mp4" autoplay loop muted></video>
+                                <h1>완전히 새로워진 전화 응대 솔루션<br>클로바 AI고객센터</h1>
+                                <a href="#">자세히 보기</a>
+
+
+                            </li>
+                            <li class="title2">
+                                <video src="img/index/nav1.mp4" autoplay loop muted></video>
+                                <h2>이미지에서 텍스트를 인식하는 기술<br>클로바 OCR</h2>
+                                <a href="#">자세히 보기</a>
+
+                            </li>
+
+                            <li class="title3">
+                                <h3>내가 만난 첫 번째 스마트홈<br>클로바 클락</h3>
+                                <a href="#">자세히 보기</a>
+
+                            </li>
+                            <li class="title4">
+                                <h4>인공지능 스피커 프렌즈를<br>지금 만나보세요</h4>
+                                <a href="#">자세히 보기</a>
+
+                            </li>
+                            <li class="title5">
+                                <h5>Compact,Smart,Adorable!<br>인공지능 스피커 프렌즈</h5>
+                                <a href="#">자세히 보기</a>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="items">
+                        <ul>
+                            <li class="on"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <script>
+                        //gaelley
+
+
+                        var ga11 = $('.gallery');
+                        var ga11li = $('.gallery>ul>li');
+                        var itemsli = $('.items>ul>li');
+                        ga11li.eq(0).show().siblings().hide();
+                        var idx = 0;
+
+                        function auto() {
+
+                            if (idx >= ga11li.length - 1) {
+                                idx = -1;
+                            }
+                            idx++;
+
+
+                            ga11li.eq(idx).fadeIn(1000).siblings().fadeOut(1000);
+
+                            itemsli.eq(idx).addClass('on').siblings().removeClass('on');
+                            if (idx >= ga11li.length - 1) {
+                                idx = -1;
+                            }
+                        }
+                        setInterval(auto, 5000);
+
+                        itemsli.on('click', itemsliclick);
+
+                        function itemsliclick() {
+                            var idthis = $(this).index();
+                            ga11li.eq(idthis).fadeIn().siblings().fadeOut();
+                            $(this).addClass('on').siblings().removeClass('on');
+                            idx = idthis;
+
+                        }
+
+
+                        //items
+
+                    </script>
+                </div>
+            </div>
+            <div class="section">
+                <div class="title">
+                    <span class="title">CLOVA Extensions Kit</span>
+                </div>
+                <p class="text1">CLOVA Extensions Kit는 외부 서비스나 IoT 기기를 제어할 수 있는<br>
+                    ‘CLOVA Skill’을 서비스할 수 있도록 필요한 도구와 인터페이스를 제공합니다.</p>
+            </div>
+            <div class="section1">
+                <div class="sec">
+                    <div class="sec-area">
+                        <img src="img/index/sec1.png" alt="">
+                    </div>
+                </div>
+                <div class="sec1">
+                    <div class="sec1-area">
+                        <ul>
+                            <li class="title-a">
+                                <span class="lo">CLOVA AI<br>Special Feature</span>
+                                <p class="text2">네이버, 라인의 풍부한 데이터와<br>세계 최고 수준의 AI 기술이 만나<br>전에 없던 시너지를 창출합니다.</p>
+                            </li>
+                            <li class="title-s">
+                                <img src="img/index/icon1.png" alt="">
+                                <span class="text1">Customized Solution</span>
+                                <p class="text3">네이버, 라인의 서비스를 통해 축적된<br>데이터와 클로바의 자체 기술로 제작한<br>AI엔진을 활용하여, 개별 비즈니스의<br>니즈에 부합하는 Customized Solution<br>을 제공합니다.</p>
+                            </li>
+                            <li class="title-d">
+                                <img src="img/index/icon2.png" alt="">
+                                <span class="text1">Integrated AI Engine</span>
+                                <p class="text3">네이버 클로바에서 자체적으로 보유한 AI<br>기술을 복합적으로 활용한 솔루션을 개발<br>할 수 있습니다. 이를 통해 단일 기술을<br>활용한 경우보다 월등한 시너지를 만들어<br>냅니다.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <span class="cl">제품</span>
+                <div class="sec2">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="on2"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <span class="arrow arrowleft"></span>
+                <span class="arrow arrowright"></span>
+
+                <script>
+                    var sec = $('.sec2>ul>li');
+                    var secBg = [];
+
+                    for (var i = 0; i < sec.length; i++) {
+                        secBg.push('url(img/index/cl' + i + '.png) no-repeat 50%');
+                        sec.eq(i).css({
+                            'background': secBg[i],
+                            'background-size': '100%'
+                        });
+                    }
+
+
+
+
+
+                    var arrowleft = $('span.arrow.arrowleft');
+                    var arrowright = $('span.arrow.arrowright');
+
+                    arrowleft.on('click', arrowleftfunc);
+
+
+                    function arrowleftfunc() {
+                        var sec = $('.sec2>ul>li');
+                        $('.sec2>ul').prepend(sec.eq(sec.length - 1));
+                        $('.sec2>ul>li').eq(3).addClass('on2');
+                        $('.sec2>ul>li').eq(4).removeClass('on2');
+                    }
+
+
+                    arrowright.on('click', arrowrightfunc);
+
+                    function arrowrightfunc() {
+                        var i = 0
+
+                        var sec = $('.sec2>ul>li');
+                        var lastsec = $('.sec2>ul>li').length - 1;
+
+                        $('.sec2>ul').append(sec.eq(0));
+
+                        $('.sec2>ul>li').eq(3).addClass('on2');
+                        $('.sec2>ul>li').eq(2).removeClass('on2');
+                    }
+
+                </script>
+            </div>
+            <div class="section3">
+                <div class="sec3">
+                    <span class="bg">CLOVA Official Blog</span>
+                    <p class="bg">클로바 공식 블로그에서 다양한 소식을 확인해보세요</p>
+                    <a class="bg" href="#">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        <div class="inner-footer">
+            <div class="footer-area">
+                <div class="topfooter">
+                    <span class="lo"><img src="img/index/logo.png" alt=""></span>
+                    <div class="inner-top">
+                        <ul>
+                            <li><a href=""><img src="img/index/blog.png" alt=""></a></li>
+                            <li><a href=""><img src="img/index/youtube.png" alt=""></a></li>
+                            <li><a href=""><img src="img/index/instagrem.png" alt=""></a></li>
+                            <li><a href=""><img src="img/index/facebook.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottomfooter">
+                    <ul>
+                        <li class="la"><a href="#">고객센터 1833-5387 </a>
+                            <span>|</span>
+                            <span> 09:00 - 18:00 (주말,공휴일 휴무)</span>
+                        </li>
+                        <li class="lal">
+                            <span>Powered by NAVER · LINE</span>
+                        </li>
+                        <li class="lala">
+                            <a href="#">공지사항</a>
+                            <a href="#">이용약관</a>
+                            <a href="#">CLOVA 채용안내</a>
+                            <a href="#">CLOVA JP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
