@@ -1,0 +1,1585 @@
+@charset "uft-8";
+@import url(../css/header.css);
+@import url(../css/footer.css);
+
+/*content*/
+
+body {
+    background: #121212
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    font-family: sans-serif;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.inner-con {
+    width: 100%;
+    height: 968px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.inner-con .gallery {
+    width: 100%;
+    height: 968px;
+}
+
+.inner-con .border-nav {
+    width: 1748px;
+    height: 780px;
+    border: 1px solid #a36b4f;
+    position: absolute;
+    border-top: none;
+    top: 70px;
+    left: 80px;
+}
+
+.inner-con ul li {
+    width: 100%;
+    height: 968px;
+    border: 1px solid;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+}
+
+.inner-con ul li.nav-1 span.nev-text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-1 strong.nav-st {
+    color: #fff;
+    font-size: 150px;
+    position: absolute;
+    font-weight: 100;
+    top: 167px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-1 p.nav-p {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    font-weight: 100;
+    top: 380px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-1 a.nav-a {
+    display: block;
+    width: 240px;
+    height: 55px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    line-height: 55px;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    bottom: 76px;
+    left: 80px;
+}
+
+.inner-con ul li.nav-1 a.nav-a:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+
+.inner-con ul li.nav-2 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/nav_1.webp) no-repeat 50%;
+    background-size: cover;
+}
+
+.inner-con ul li.nav-2 span.nev-text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-2 strong.nav-st {
+    color: #fff;
+    font-size: 150px;
+    position: absolute;
+    font-weight: 100;
+    top: 167px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-2 p.nav-p {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    font-weight: 100;
+    top: 380px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-2 a.nav-a {
+    display: block;
+    width: 240px;
+    height: 55px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    line-height: 55px;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    bottom: 76px;
+    left: 80px;
+}
+
+.inner-con ul li.nav-2 a.Aq {
+    left: 343px;
+    background: #111111;
+    color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.inner-con ul li.nav-2 a.Aq:hover {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.inner-con ul li.nav-2 a.nav-a:hover {
+    background: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+
+.inner-con ul li.nav-3 {
+    background: url(../img/nav_2.webp) no-repeat 50%;
+    background-size: cover;
+}
+
+.inner-con ul li.nav-3 span.nev-text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-3 strong.nav-st {
+    color: #fff;
+    font-size: 150px;
+    position: absolute;
+    font-weight: 100;
+    top: 167px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-3 p.nav-p {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    font-weight: 100;
+    top: 380px;
+    left: 160px;
+}
+
+.inner-con ul li.nav-3 a.nav-a {
+    display: block;
+    width: 240px;
+    height: 55px;
+    text-align: center;
+    background: #111;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    line-height: 55px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 76px;
+    left: 80px;
+}
+
+.inner-con ul li.nav-3 a.nav-a:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: 0.4s;
+}
+
+.inner-con .arrow span.arrow {
+    width: 24px;
+    height: 44px;
+    border: 0px solid;
+    position: absolute;
+    top: 462px;
+    left: 28px;
+    cursor: pointer;
+}
+
+.inner-con .arrow span.left {
+    background: url(../img/arrow-left.png);
+}
+
+.inner-con .arrow span.right {
+    background: url(../img/arrow-right.png);
+    left: 1862px;
+}
+
+.inner-con .iteme {
+    width: 100px;
+    height: 20px;
+    border: 0px solid #fff;
+    position: absolute;
+    bottom: 77px;
+    left: 910px;
+}
+
+.inner-con .iteme ul li {
+    width: 12px;
+    height: 12px;
+    top: 4px;
+    background: #a9a9ac;
+    border: 0px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.inner-con .iteme ul li.border2 {
+    left: 24px;
+}
+
+.inner-con .iteme ul li.border3 {
+    left: 48px;
+}
+
+.inner-con .iteme ul li.on {
+    border: 2px solid #fff;
+    background: none;
+}
+
+.inner-con .iteme span.start {
+    width: 12px;
+    height: 12px;
+    background: url(../img/stop.png) no-repeat 50%;
+    background-size: cover;
+    position: absolute;
+    top: 4px;
+    left: 82px;
+    cursor: pointer;
+}
+
+.inner-con .iteme span.stop {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background: url(../img/play.png) no-repeat 50%;
+    position: absolute;
+    left: 80px;
+    cursor: pointer;
+}
+
+
+/*content2*/
+
+.content2 {
+    width: 100%;
+    height: 649px;
+    background: #111111;
+    padding: 160px 0 160px 0;
+}
+
+.content2 .banner {
+    width: 1623px;
+    height: 657px;
+    border: 0px solid #fff;
+    padding: 0 140px 0 140px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content2 .banner .inner-banner {
+    width: 100%;
+    height: 657px;
+    border: 0px solid #fff;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content2 .banner .inner-banner p {
+    color: #fff;
+    text-align: center;
+}
+
+.content2 .banner .inner-banner p.logo {
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.content2 .banner .inner-banner p.sub-text {
+    font-size: 16px;
+}
+
+.content2 .banner .inner-banner .banner-area {
+    width: 2100px;
+    height: 400px;
+    border: 0px solid #fff;
+    margin-top: 120px;
+}
+
+.content2 .banner .inner-banner ul li.banner-Ch {
+    width: 375px;
+    height: 400px;
+    border: 0px solid #fff;
+    float: left;
+    margin-right: 40px;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #151515;
+}
+
+.content2 .banner .inner-banner ul li span {
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.content2 .banner .inner-banner ul li:hover {
+    color: #a36b4f;
+    background: #181818;
+    transition: 0.5s;
+}
+
+.content2 .banner .inner-banner ul li.Bs {
+    margin-right: 0;
+}
+
+.content2 .banner .inner-banner ul li.Ba {
+    display: block;
+}
+
+.content2 .banner .inner-banner ul li span.g70 {
+    font-size: 16px;
+}
+
+.content2 .banner .inner-banner ul li span.sub {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.content2 .banner .inner-banner .banner-area ul li a.Bo {
+    display: block;
+    width: 295px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.content2 .banner .inner-banner ul li a.Bo:hover {
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.content2 .banner .inner-banner ul li img {
+    width: 295px;
+    height: 113px;
+    margin-top: 43px;
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+}
+
+.content2 .banner .arrow span.arrow {
+    width: 24px;
+    height: 44px;
+    border: 0px solid;
+    position: absolute;
+    top: 410px;
+    left: 58px;
+    cursor: pointer;
+}
+
+.content2 .banner .arrow span.left {
+    background: url(../img/arrow-left.png);
+}
+
+.content2 .banner .arrow span.right {
+    background: url(../img/arrow-right.png);
+    left: 1834px;
+}
+
+
+/*content3*/
+
+.content3 {
+    width: 100%;
+    height: 1074.5px;
+    padding-bottom: 240px;
+}
+
+.content3 strong {
+    display: block;
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+
+.content3 .gallery_nav {
+    width: 100%;
+    height: 960px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content3 .gallery_nav ul li {
+    width: 100%;
+    height: 960px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content3 .gallery-bg {
+    display: none;
+}
+
+.content3 .gallery_nav ul li.gallery-1 {
+    background: url(../img/nav_1_1.webp) no-repeat 50%;
+    display: block;
+}
+
+.content3 .gallery_nav ul li.gallery-1 span.title {
+    font-size: 54px;
+    color: #ad7b61;
+    font-weight: 100;
+    position: absolute;
+    right: 310px;
+    bottom: 345px;
+}
+
+.content3 .gallery_nav ul li.gallery-1 p.title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    right: 180px;
+    bottom: 270px;
+}
+
+.content3 .gallery_nav ul li.gallery-1 a {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 0px solid #fff;
+    position: absolute;
+    bottom: 200px;
+    right: 604px;
+    box-sizing: border-box;
+}
+
+.content3 .gallery_nav ul li.gallery-1 span.border {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    right: 590px;
+    bottom: 205px;
+}
+
+.content3 .gallery_nav ul li.gallery-2 {
+    background: url(../img/nav_1_2.jpg) no-repeat 50%;
+}
+
+.content3 .gallery_nav ul li.gallery-2 span.title {
+    font-size: 54px;
+    color: #ad7b61;
+    font-weight: 100;
+    position: absolute;
+    left: 140px;
+    bottom: 315px;
+}
+
+.content3 .gallery_nav ul li.gallery-2 p.title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    line-height: 28px;
+    left: 138px;
+    bottom: 180px;
+}
+
+.content3 .gallery_nav ul li.gallery-3 {
+    background: url(../img/nav_1_3.webp) no-repeat 50%;
+}
+
+.content3 .gallery_nav ul li.gallery-3 span.title {
+    font-size: 54px;
+    color: #ad7b61;
+    font-weight: 100;
+    position: absolute;
+    left: 140px;
+    bottom: 315px;
+}
+
+.content3 .gallery_nav ul li.gallery-3 p.title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    line-height: 28px;
+    left: 138px;
+    bottom: 180px;
+}
+
+.content3 .gallery_nav ul li.gallery-4 {
+    background: url(../img/nav_1_4.jpg) no-repeat 50%;
+}
+
+.content3 .gallery_nav ul li.gallery-4 span.title {
+    font-size: 54px;
+    color: #ad7b61;
+    font-weight: 100;
+    position: absolute;
+    left: 140px;
+    bottom: 235px;
+}
+
+.content3 .gallery_nav ul li.gallery-4 p.title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    line-height: 28px;
+    left: 138px;
+    bottom: 180px;
+}
+
+.content3 .gallery_nav .bottom-slide {
+    width: 1623px;
+    height: 54px;
+    position: absolute;
+    border: 0px solid #fff;
+    left: 140px;
+    bottom: 66px;
+    z-index: 1;
+}
+
+.content3 .gallery_nav .bottom-slide span.slide {
+    width: 1623px;
+    height: 1px;
+    background: #5f5f5f;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content3 .gallery_nav .bottom-slide .border-slide {
+    width: 0;
+    height: 1px;
+    background: #ad7b61;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content3 .gallery_nav .bottom-slide ul li {
+    width: 405.75px;
+    height: 50px;
+    border: 0px solid #fff;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.content3 .gallery_nav .bottom-slide ul li.slide2 {
+    left: 405.75px;
+}
+
+.content3 .gallery_nav .bottom-slide ul li.slide3 {
+    left: 811.5px;
+}
+
+.content3 .gallery_nav .bottom-slide ul li.slide4 {
+    left: 1217.25px;
+}
+
+.content3 .gallery_nav .bottom-slide ul li.Ho:hover {
+    color: #ad7b61;
+    transition: 1s;
+}
+
+.content3 .gallery_nav .bottom-slide ul li.non {
+    color: #ad7b61;
+}
+
+.content3 .gallery .bottom-slide li.non {
+    color: #ad7b61
+}
+
+
+/*content4*/
+
+.content4 {
+    width: 100%;
+    height: 764px;
+}
+
+.content4 .inner-sec {
+    width: 100%;
+    height: 525px;
+    border: 0px solid #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content4 .inner-sec ul li {
+    width: 520px;
+    height: 423px;
+    float: left;
+    border: 0px solid #fff;
+    padding: 51px 360px 51px 60px;
+}
+
+.content4 .inner-sec ul li.sec_1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/sec_1.webp');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.content4 .inner-sec ul li.sec_1 span.sec_text {
+    color: #fff;
+    font-size: 42px;
+}
+
+.content4 .inner-sec ul li.sec_1 p.sec_text {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.content4 .inner-sec ul li.sec_1 a.sec_text {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.content4 .inner-sec ul li.sec_1 span.sec_border {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 207px;
+    left: 145px;
+}
+
+.content4 .inner-sec ul li.sec_2 {
+    position: absolute;
+    right: 0;
+}
+
+.content4 .inner-sec ul li.sec_2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/sec_2.webp');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.content4 .inner-sec ul li.sec_2 span.sec_text {
+    color: #fff;
+    font-size: 42px;
+}
+
+.content4 .inner-sec ul li.sec_2 p.sec_text {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.content4 .inner-sec ul li.sec_2 a.sec_text {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.content4 .inner-sec ul li.sec_2 span.sec_border {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 187px;
+    left: 145px;
+}
+
+.content5 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 240px
+}
+
+.content5 .con_img {
+    width: 100%;
+    height: 960px;
+    background: url(../img/content5.jpg )no-repeat 50%;
+}
+
+.content5 .con_img .con-text {
+    width: 1563px;
+    height: auto;
+    margin: 0 auto;
+    color: #fff;
+    padding: 367px 0;
+}
+
+.content5 .con_img .con-text p.img_text {
+    font-size: 54px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.content5 .con_img .con-text p.img_text_a {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.content5 .con_img .con-text a.img_text {
+    display: block;
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.content5 .con_img .con-text a.img_text:hover {
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+    transition: 0.4s
+}
+
+
+/*content6*/
+
+.content6 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 240px;
+}
+
+.content6 p.sec-text {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content6 p.sec-text1 {
+    color: #fff;
+    font-size: 54px;
+    text-align: center;
+    margin: 6px 0 68px 0;
+}
+
+.content6 .section1 {
+    width: 100%;
+    height: 638px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content6 .section1 ul li {
+    float: left;
+}
+
+.content6 .section1 ul li.sec-1 {
+    width: 629px;
+    height: 630px;
+    background: url(../img/sec-1.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+}
+
+.content6 .section1 ul li .Ho {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border: 0px solid #fff;
+    display: none;
+}
+
+.content6 .section1 ul li.sec-1 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section1 ul li.sec-1 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section1 ul li.sec-1 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section1 ul li.sec-1 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+
+.content6 .section1 ul li.Qw:hover {
+    background-size: 120% 120%;
+    transition: 0.3s;
+}
+
+.content6 .section1 ul li.sec-2 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-2.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    left: 637px;
+    top: 0;
+}
+
+.content6 .section1 ul li.sec-2 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section1 ul li.sec-2 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section1 ul li.sec-2 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section1 ul li.sec-2 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section1 ul li.sec-3 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-3.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    left: 637px;
+    bottom: 8px;
+}
+
+.content6 .section1 ul li.sec-3 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section1 ul li.sec-3 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section1 ul li.sec-3 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section1 ul li.sec-3 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section1 ul li.sec-4 {
+    width: 629px;
+    height: 630px;
+    background: url(../img/sec-4.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content6 .section1 ul li.sec-4 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section1 ul li.sec-4 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section1 ul li.sec-4 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section1 ul li.sec-4 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .plus {
+    display: block;
+    padding: 0 50px 0 28px;
+    width: 162px;
+    height: 56px;
+    border: 1px solid #fff;
+    margin-top: 60px;
+    color: #fff;
+    line-height: 56px;
+    position: relative;
+    left: 830px;
+    cursor: pointer;
+}
+
+.content6 .plus .plus-text {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/*section2------------------------------------------------------------------------*/
+
+.content6 .section2 {
+    display: none;
+    width: 100%;
+    height: 638px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content6 .section2 ul li {
+    float: left;
+}
+
+.content6 .section2 ul li.sec-1 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-5.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+}
+
+.content6 .section2 ul li .Ho {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border: 0px solid #fff;
+    display: none;
+}
+
+.content6 .section2 ul li.sec-1 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    top: 220px;
+}
+
+.content6 .section2 ul li.sec-1 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section2 ul li.sec-1 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section2 ul li.sec-1 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+
+.content6 .section2 ul li.Qw:hover {
+    background-size: 120% 120%;
+    transition: 0.3s;
+}
+
+.content6 .section2 ul li.sec-2 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-6.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+}
+
+.content6 .section2 ul li.sec-2 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section2 ul li.sec-2 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section2 ul li.sec-2 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section2 ul li.sec-2 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section2 ul li.sec-3 {
+    width: 629px;
+    height: 630px;
+    background: url(../img/sec-7.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    left: 637px;
+    bottom: 8px;
+}
+
+.content6 .section2 ul li.sec-3 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section2 ul li.sec-3 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section2 ul li.sec-3 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section2 ul li.sec-3 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section2 ul li.sec-4 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-8.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content6 .section2 ul li.sec-4 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section2 ul li.sec-4 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section2 ul li.sec-4 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section2 ul li.sec-4 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section2 ul li.sec-5 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-8-1.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+}
+
+.content6 .section2 ul li.sec-5 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section2 ul li.sec-5 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section2 ul li.sec-5 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section2 ul li.sec-5 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .plus1 {
+    display: none;
+    padding: 0 50px 0 28px;
+    width: 162px;
+    height: 56px;
+    border: 1px solid #fff;
+    margin-top: 60px;
+    color: #fff;
+    line-height: 56px;
+    position: relative;
+    left: 830px;
+    cursor: pointer;
+}
+
+.content6 .plus1 .plus-text1 {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/*section3-----------------------------------------------------------------*/
+
+.content6 .section3 {
+    display: none;
+    width: 100%;
+    height: 638px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content6 .section3 ul li {
+    float: left;
+}
+
+.content6 .section3 ul li.sec-1 {
+    width: 629px;
+    height: 630px;
+    background: url(../img/sec-9.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+}
+
+.content6 .section3 ul li .Ho {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border: 0px solid #fff;
+    display: none;
+}
+
+.content6 .section3 ul li.sec-1 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section3 ul li.sec-1 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section3 ul li.sec-1 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section3 ul li.sec-1 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+
+.content6 .section3 ul li.Qw:hover {
+    background-size: 120% 120%;
+    transition: 0.3s;
+}
+
+.content6 .section3 ul li.sec-2 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-10.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    left: 637px;
+    top: 0;
+}
+
+.content6 .section3 ul li.sec-2 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section3 ul li.sec-2 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section3 ul li.sec-2 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section3 ul li.sec-2 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section3 ul li.sec-3 {
+    width: 629px;
+    height: 311px;
+    background: url(../img/sec-11.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    left: 637px;
+    bottom: 8px;
+}
+
+.content6 .section3 ul li.sec-3 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section3 ul li.sec-3 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section3 ul li.sec-3 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section3 ul li.sec-3 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+.content6 .section3 ul li.sec-4 {
+    width: 629px;
+    height: 630px;
+    background: url(../img/sec-12.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    border: 0px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content6 .section3 ul li.sec-4 .sub-sec-1 .in-sub {
+    padding: 3px 30px 27px 69px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content6 .section3 ul li.sec-4 .sub-sec-1 .in-sub span.instar {
+    width: 22px;
+    height: 22px;
+    background: url(../img/insta.png) no-repeat 50%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.content6 .section3 ul li.sec-4 .sub-sec-1 .in-sub p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content6 .section3 ul li.sec-4 .sub-sec-1 .in-sub a {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+}
+
+
+/* content7 --------------------------------------------------------------------------*/
+
+.content7 {
+    width: 100%;
+    height: 571.45px;
+    padding: 120px 0;
+    margin-bottom: 240px;
+    position: relative;
+}
+
+.content7 .inner-con7 {
+    width: 1623px;
+    height: 571.45px;
+    padding: 0 140px;
+}
+
+.content7 .inner-con7::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/con-back.jpg) no-repeat 50%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.content7 .inner-con7 p.con7 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content7 .inner-con7 ul li {
+    width: 513.77px;
+    height: 494.45px;
+    border: 0px solid #fff;
+    float: left;
+    box-sizing: border-box;
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content7 .inner-con7 ul li span.con7-text {
+    display: block;
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+.content7 .inner-con7 ul li.con7-sub2 span.con7-text {
+    margin-bottom: 6px;
+}
+
+.content7 .inner-con7 ul li p.con7-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content7 .inner-con7 ul li a.con7-text {
+    color: #fff;
+    border-bottom: 1px solid;
+}
+
+.content7 .inner-con7 ul li span.arrow-border {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+
+.content7 .inner-con7 ul li img {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.content7 .inner-con7 ul li.con7-sub2 {
+    margin-left: 40px;
+}
+
+.content7 .inner-con7 ul li.con7-sub3 {
+    margin-left: 40px;
+}

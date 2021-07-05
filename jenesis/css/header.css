@@ -1,0 +1,1204 @@
+@charset "uft-8";
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #ad7b61;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: #111111;
+    position: fixed;
+    z-index: 100;
+}
+
+.header .inner-header {
+    height: 70px;
+    padding: 0 140px 0 140px;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.header .inner-header h1.logo {
+    line-height: 70px;
+    float: left;
+}
+
+.header .inner-header::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.header .inner-header .left-menu {
+    height: 70px;
+    float: left;
+    margin-left: 40px;
+    border: 0px solid;
+}
+
+.header .inner-header .left-menu::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.header .inner-header .left-menu ul li {
+    display: inline;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border: 0px solid;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    padding: 0 28px 0 28px;
+    font-family: sans-serif;
+    letter-spacing: -2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .inner-header .left-menu ul li:hover {
+    color: #ad7b61;
+}
+
+.header .inner-header .right-menu {
+    height: 70px;
+    border: 0px solid;
+    float: right;
+}
+
+.header .inner-header .right-menu::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.header .inner-header .right-menu ul li {
+    display: inline;
+    line-height: 70px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    color: #fff;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.header .inner-header .right-menu ul li:hover {
+    color: #ad7b61;
+}
+
+.header .inner-header .right-menu ul li a:hover {
+    color: #ad7b61;
+}
+
+.header .inner-header .right-menu ul li a {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.header .inner-header .right-menu ul span.util {
+    width: 1px;
+    height: 20px;
+    border: 1px solid #fff;
+    opacity: 20%;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.header .inner-header .right-menu .my {
+    padding-right: 20px;
+}
+
+.header .inner-header .right-menu .search {
+    width: 20px;
+    height: 20px;
+    border: 0px solid;
+    margin-right: 14px;
+    background: url(../img/search.png) no-repeat 50%;
+    cursor: pointer;
+}
+
+.header .inner-header .right-menu .menu-bar {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    background: url(../img/menu-bar.png) no-repeat 50%;
+    cursor: pointer;
+}
+
+.header .inner-header .right-menu .midea-menu-bar {
+    display: none;
+}
+
+.header .inner-header .right-menu #search {
+    display: none;
+    width: 230px;
+    height: 30px;
+    background: #111;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    position: relative;
+    top: -51px;
+    left: -30px;
+}
+
+
+/* 여기부터 right-menu script용*/
+
+.Bar {
+    display: none;
+    width: 100%;
+    height: 939px;
+    background: #111111;
+    position: fixed;
+    padding-top: 30px;
+    z-index: 150;
+}
+
+.Bar .close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 150px;
+    background: url(../img/close.png) no-repeat 50%;
+    cursor: pointer;
+}
+
+.Bar .logo {
+    text-align: center;
+}
+
+.Bar .search {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 80px;
+}
+
+.Bar #search {
+    width: 615px;
+    height: 67px;
+    border: 0;
+    text-align: center;
+    background: #111;
+    font-size: 30px;
+    color: #fff;
+    padding: 0 15px 0 15px;
+    border-bottom: 1px solid #888888;
+}
+
+.Bar .inner-Bar {
+    width: 1190px;
+    height: 545px;
+    border: 0px solid #fff;
+    margin: 0 auto;
+}
+
+.Bar .inner-Bar ul li {
+    width: 25%;
+    height: 272.5px;
+    border: 0px solid #fff;
+    float: left;
+    box-sizing: border-box;
+}
+
+.Bar .inner-Bar ul li p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Bar .inner-Bar ul li a.Gu:hover {
+    color: #996449;
+    transition: 0.3s;
+}
+
+.Bar .inner-Bar ul li a.Gu {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.Bar .bottom-Bar {
+    width: 1190px;
+    height: 75px;
+    border-top: 1px solid #1e1e1e;
+    position: relative;
+    bottom: -94px;
+    margin: 0 auto;
+}
+
+.Bar .bottom-Bar ul li {
+    line-height: 70px;
+    float: left;
+    margin-right: 50px;
+}
+
+.Bar .bottom-Bar ul li span.icon img {
+    width: 14px;
+    height: 14px;
+}
+
+.Bar .bottom-Bar ul li span img {
+    position: relative;
+    top: 2px;
+}
+
+.Bar .bottom-Bar ul li :hover {
+    color: #ad7b61;
+    transition: 0.3s;
+}
+
+.Bar .bottom-Bar ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.Bar .bottom-Bar .right-box {
+    width: 160px;
+    height: 36px;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    border: 0px solid #fff;
+}
+
+.Bar .bottom-Bar .right-box a {
+    display: block;
+    width: 80px;
+    line-height: 36px;
+    text-align: center;
+    float: left;
+    background: #222;
+    color: #fff;
+}
+
+.Bar .bottom-Bar .right-box a.btn2 {
+    background: #996449;
+}
+
+
+/* 여기부터 스크립트용 모델 */
+
+.sub-menu {
+    display: none;
+    width: 100%;
+    height: auto;
+    background: #151515;
+}
+
+.sub-menu .sub-inner {
+    width: 1664px;
+    height: 913px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    border: 0px solid #151515
+}
+
+.sub-menu .sub-inner::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.sub-menu .sub-inner ul li {
+    width: 308px;
+    height: 389px;
+    position: absolute;
+    top: 30px;
+    left: 121.5px;
+    float: left;
+    color: #fff;
+}
+
+.sub-menu .sub-inner ul li:hover {
+    transition: 0.3s;
+    color: #ad7b61;
+    background: #1c1c1c;
+}
+
+.sub-menu .sub-inner .G80 {
+    left: 676.5px;
+}
+
+.sub-menu .sub-inner .G90 {
+    left: 1230.5px;
+}
+
+.sub-menu .sub-inner .GV70 {
+    top: 451px;
+}
+
+.sub-menu .sub-inner .GV80 {
+    top: 451px;
+    left: 676.5px;
+}
+
+.sub-menu .sub-inner ul li span {
+    font-size: 16px;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    pointer-events: none;
+}
+
+.sub-menu .sub-inner ul li span.sub {
+    font-size: 30px;
+    position: absolute;
+    left: 29px;
+    top: 39px;
+    font-family: sans-serif;
+}
+
+.sub-menu .sub-inner img {
+    width: 250px;
+    height: 95.23px;
+    position: absolute;
+    left: 30px;
+    top: 119px;
+}
+
+.sub-menu .sub-inner a.Bo {
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 29px;
+    background: #111111;
+    transition: 1s;
+}
+
+.sub-menu .sub-inner a.Bo:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+.sub-menu .sub-inner a.Si {
+    border-bottom: 0px solid;
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    left: 29px;
+    top: 318px;
+}
+
+.sub-menu .sub-inner a.Si:hover {
+    border-bottom: 1px solid;
+}
+
+.sub-menu .sub-inner span.arrow {
+    width: 8.18px;
+    height: 8.18px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 322px;
+    left: 95px;
+}
+
+.sub-menu .sub-inner a.si-1 {
+    position: absolute;
+    top: 345px;
+}
+
+.sub-menu .sub-inner span.right {
+    position: absolute;
+    top: 350px;
+}
+
+
+/* 여기부터 스크립트용 구매 */
+
+.sub-Gu {
+    display: none;
+    width: 100%;
+    height: 547px;
+    background: #151515;
+    border-bottom: 1px solid #262626;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sub-Gu .inner-Gu {
+    width: 1650px;
+    height: 352px;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+
+.sub-Gu .inner-Gu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sub-Gu .inner-Gu ul li.Gu-text {
+    width: 280px;
+    height: 352px;
+    border: 0px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sub-Gu .inner-Gu ul li.eq1 {
+    width: 240px;
+    margin-right: 40px;
+    border-right: 1px solid #262626;
+}
+
+.sub-Gu .inner-Gu ul li.eq6 {
+    width: 240px;
+}
+
+.sub-Gu .inner-Gu ul li.eq1 a.Gu {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-Gu .inner-Gu ul li.eq1 a.Gu:hover {
+    color: #fff;
+}
+
+.sub-Gu .inner-Gu ul li.eq2 p.text-Gu {
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-Gu .inner-Gu ul li.eq2 p.text-Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu .inner-Gu ul li a.Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu .inner-Gu ul li a.Gu {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub-Gu .inner-Gu ul li.eq6 a.Gu {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+.sub-Gu .inner-Gu ul li.eq6 a.Gu:hover {
+    background: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sub-Gu .inner-Gu ul li p.text-Gu {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 16px;
+}
+
+.sub-Gu .inner-Gu ul li p.text-GuQ {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom-Gu {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #262626;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    bottom: 0;
+}
+
+.bottom-Gu span.bo {
+    padding: 0 30px;
+}
+
+.bottom-Gu span.arrow {
+    width: 8.18px;
+    height: 8.18px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.bottom-Gu span.qw1 {
+    left: 851px;
+}
+
+.bottom-Gu span.qw2 {
+    left: 1002px;
+}
+
+.bottom-Gu span.qw3 {
+    left: 1154px;
+}
+
+
+/* 여기부터 체험 */
+
+.sub-Gu1 {
+    display: none;
+    width: 100%;
+    height: 547px;
+    background: #151515;
+    border-bottom: 1px solid #262626;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sub-Gu1 .inner-Gu {
+    width: 1650px;
+    height: 352px;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+
+.sub-Gu1 .inner-Gu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sub-Gu1 .inner-Gu ul li.Gu-text {
+    width: 280px;
+    height: 352px;
+    border: 0px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq1 {
+    width: 240px;
+    margin-right: 40px;
+    border-right: 1px solid #262626;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq6 {
+    width: 240px;
+    margin-left: 280px;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq1 a.Gu {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq1 a.Gu:hover {
+    color: #fff;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq2 p.text-Gu {
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq2 p.text-Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu1 .inner-Gu ul li a.Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu1 .inner-Gu ul li a.Gu {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq6 a.Gu {
+    display: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+.sub-Gu1 .inner-Gu ul li.eq6 a.Gu:hover {
+    background: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sub-Gu1 .inner-Gu ul li p.text-Gu {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 16px;
+}
+
+.sub-Gu1 .inner-Gu ul li p.text-GuQ {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom-Gu1 {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #262626;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    bottom: 0;
+}
+
+.bottom-Gu1 span.bo {
+    padding: 0 30px;
+}
+
+.bottom-Gu1 span.arrow {
+    width: 8.18px;
+    height: 8.18px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.bottom-Gu1 span.qw1 {
+    left: 687px;
+}
+
+.bottom-Gu1 span.qw2 {
+    left: 860px;
+}
+
+.bottom-Gu1 span.qw3 {
+    left: 1049px;
+}
+
+.bottom-Gu1 span.qw4 {
+    width: 14px;
+    height: 14px;
+    border: none;
+    left: 1318px;
+    top: 28px;
+    background: url(../img/ico-new-window.png) no-repeat 50%;
+}
+
+
+/* 여기부터 멤버스 */
+
+.sub-Gu2 {
+    display: none;
+    width: 100%;
+    height: 547px;
+    background: #151515;
+    border-bottom: 1px solid #262626;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sub-Gu2 .inner-Gu {
+    width: 1650px;
+    height: 352px;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+
+.sub-Gu2 .inner-Gu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sub-Gu2 .inner-Gu ul li.Gu-text {
+    width: 280px;
+    height: 352px;
+    border: 0px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq1 {
+    width: 240px;
+    margin-right: 40px;
+    border-right: 1px solid #262626;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq6 {
+    width: 240px;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq1 a.Gu {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq1 a.Gu:hover {
+    color: #fff;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq2 p.text-Gu {
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq2 p.text-Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu2 .inner-Gu ul li a.Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu2 .inner-Gu ul li a.Gu {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq6 a.Gu {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+.sub-Gu2 .inner-Gu ul li.eq6 a.Gu:hover {
+    background: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sub-Gu2 .inner-Gu ul li p.text-Gu {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 16px;
+}
+
+.sub-Gu2 .inner-Gu ul li p.text-GuQ {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom-Gu2 {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #262626;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    bottom: 0;
+}
+
+.bottom-Gu2 span.bo {
+    padding: 0 30px;
+}
+
+.bottom-Gu2 span.arrow {
+    width: 8.18px;
+    height: 8.18px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.bottom-Gu2 span.qw1 {
+    left: 789px;
+}
+
+.bottom-Gu2 span.qw2 {
+    width: 14px;
+    height: 14px;
+    border: none;
+    left: 996px;
+    top: 28px;
+    background: url(../img/ico-new-window.png) no-repeat 50%;
+}
+
+.bottom-Gu2 span.qw3 {
+    width: 14px;
+    height: 14px;
+    border: none;
+    left: 1211px;
+    top: 28px;
+    background: url(../img/ico-new-window.png) no-repeat 50%;
+}
+
+
+/* 여기부터 제네시스 */
+
+.sub-Gu3 {
+    display: none;
+    width: 100%;
+    height: 547px;
+    background: #151515;
+    border-bottom: 1px solid #262626;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sub-Gu3 .inner-Gu {
+    width: 1650px;
+    height: 352px;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+
+.sub-Gu3 .inner-Gu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sub-Gu3 .inner-Gu ul li.Gu-text {
+    width: 280px;
+    height: 352px;
+    border: 0px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq1 {
+    width: 240px;
+    margin-right: 40px;
+    border-right: 1px solid #262626;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq6 {
+    width: 240px;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq1 a.Gu {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq1 a.Gu:hover {
+    color: #fff;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq2 p.text-Gu {
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq2 p.text-Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu3 .inner-Gu ul li a.Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu3 .inner-Gu ul li a.Gu {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq6 a.Gu {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+.sub-Gu3 .inner-Gu ul li.eq6 a.Gu:hover {
+    background: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sub-Gu3 .inner-Gu ul li p.text-Gu {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 16px;
+}
+
+.sub-Gu3 .inner-Gu ul li p.text-GuQ {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom-Gu3 {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #262626;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    bottom: 0;
+}
+
+.bottom-Gu3 span.bo {
+    padding: 0 30px;
+}
+
+.bottom-Gu3 span.arrow {
+    width: 8.18px;
+    height: 8.18px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.bottom-Gu3 span.qw1 {
+    left: 796px;
+}
+
+.bottom-Gu3 span.qw2 {
+    left: 997px;
+}
+
+.bottom-Gu3 span.qw3 {
+    width: 14px;
+    height: 14px;
+    border: none;
+    left: 1195px;
+    top: 28px;
+    background: url(../img/ico-new-window.png) no-repeat 50%;
+}
+
+
+/* 여기부터 고객센터 */
+
+.sub-Gu4 {
+    display: none;
+    width: 100%;
+    height: 547px;
+    background: #151515;
+    border-bottom: 1px solid #262626;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sub-Gu4 .inner-Gu {
+    width: 1650px;
+    height: 352px;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+
+.sub-Gu4 .inner-Gu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sub-Gu4 .inner-Gu ul li.Gu-text {
+    width: 280px;
+    height: 352px;
+    border: 0px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq1 {
+    width: 240px;
+    margin-right: 40px;
+    border-right: 1px solid #262626;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq6 {
+    width: 240px;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq3 {
+    position: relative;
+    top: -100px;
+    left: 285px;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq1 a.Gu {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq1 a.Gu:hover {
+    color: #fff;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq2 p.text-Gu {
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq2 p.text-Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu4 .inner-Gu ul li a.Gu:hover {
+    color: #996449;
+}
+
+.sub-Gu4 .inner-Gu ul li a.Gu {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq6 a.Gu {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+.sub-Gu4 .inner-Gu ul li.eq6 a.Gu:hover {
+    background: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sub-Gu4 .inner-Gu ul li p.text-Gu {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 16px;
+}
+
+.sub-Gu4 .inner-Gu ul li p.text-GuQ {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.bottom-Gu4 {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #262626;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    bottom: 0;
+}
+
+.bottom-Gu4 span.bo {
+    padding: 0 30px;
+}
+
+.bottom-Gu4 span.arrow {
+    width: 8.18px;
+    height: 8.18px;
+    border: 2px solid #996449;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg) scale(0.8);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.bottom-Gu4 span.qw1 {
+    left: 846px;
+}
+
+.bottom-Gu4 span.qw2 {
+    left: 998px;
+}
+
+.bottom-Gu4 span.qw3 {
+    width: 14px;
+    height: 14px;
+    border: none;
+    left: 1215px;
+    top: 28px;
+    background: url(../img/ico-new-window.png) no-repeat 50%;
+}
