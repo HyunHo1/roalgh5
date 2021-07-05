@@ -1,0 +1,125 @@
+@charset "uft-8";
+.section4 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.inner-sec5 {
+    width: 100%;
+    height: 100%;
+    border: 0px solid #000;
+    display: flex;
+    padding: 160px 100px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-sec5 .sec5-left-box {
+    width: 60%;
+    height: 100%;
+    border: 0px solid #000;
+    position: relative;
+    left: -2000px;
+}
+
+.inner-sec5 .sec5-left-box.active {
+    left: 0;
+    transition: ease left 0.5s;
+}
+
+.inner-sec5 .sec5-left-box .sec5-left-img {
+    width: 100%;
+    height: 100%;
+    background: url(../img/invoa.png) no-repeat 50%;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.inner-sec5 .sec5-right-box {
+    width: 40%;
+    height: 100%;
+    border: 0px solid #000;
+    opacity: 0;
+}
+
+.inner-sec5 .sec5-right-box.active {
+    opacity: 1;
+    transition: ease all 1s;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text {
+    width: 100%;
+    height: 100%;
+    padding: 129px 168.22px;
+    box-sizing: border-box;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.logo-text {
+    margin-bottom: 45px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p {
+    text-align: left;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text1 {
+    font-size: 28px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text3 {
+    font-size: 16px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text5 {
+    font-size: 16px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text6 {
+    font-size: 16px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text p.sec5-text7 {
+    font-size: 16px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text .href-box2 {
+    width: auto;
+    height: auto;
+    border: 0px solid;
+    margin-top: 25px;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text .href-box2 input[type=button] {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #151515;
+    color: #fff;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text .href-box2 input[type=button]:hover {
+    background: #fff;
+    color: #000;
+}
+
+.inner-sec5 .sec5-right-box .sec5-right-text .href-box2 input.no1 {
+    margin: 0;
+}

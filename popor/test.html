@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.click').on('click', function(){
+                $('.section').toggleClass('active');
+            })
+        })
+    </script>
+
+    <body>
+        <div class="content1">
+            <div class="click">click</div>
+            <div class="section">
+                <div class="section-inner">
+                    <p class="se1 se"></p>
+                    <p class="se2 se"></p>
+                    <p class="se3 se"></p>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
