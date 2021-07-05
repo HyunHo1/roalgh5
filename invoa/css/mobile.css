@@ -1,0 +1,637 @@
+@media only screen and (max-width:1024px) {
+    .content1 .inner-con1 .left-con p.left-text1 {
+        font-size: 60px;
+        text-align: right;
+        font-family: sans-serif;
+    }
+    .content1 .inner-con1 .right-con p.right-text1 {
+        font-size: 60px;
+        text-align: left;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    .content2 .inner-con2 .left-text2 {
+        width: 358px;
+        border: 0px solid #fff;
+        padding: 130px 20px;
+        transition: ease left .6s;
+    }
+    .content2 .inner-con2 .left-text2 strong.title {
+        font-size: 35px;
+    }
+    .content2 .inner-con2 .left-text2 span.text {
+        display: block;
+        color: #fff;
+        font-size: 15px;
+        padding: 15px 0;
+    }
+    .content3 {
+        width: 100%;
+        height: 300px;
+        padding: 150px 0 0 0;
+        text-align: center;
+        background: #f8fafc;
+    }
+    .content3 p.titlt2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content3 p.text {
+        font-size: 17px;
+        font-weight: normal;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .content3 .inner-con3 {
+        padding: 0 50px;
+    }
+    .content3 .inner-con3 .inner-con3_1 .Pe {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 0px solid #fff;
+        background: url(../img/mask.jpg) no-repeat 50%;
+        background-size: 100% 100%;
+        opacity: 0;
+        transition: ease opacity .9s;
+    }
+    .content3 .inner-con3 .inner-con3_1 .Pe p {
+        padding: 160px 0 0 0;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .content4 {
+        width: 100%;
+        height: 450px;
+        padding: 270px 0 150px 0;
+        background: #f8fafc;
+        text-align: center;
+    }
+    .content4 p.titlt2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content4 .inner-con4 .inner-con4_1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        box-sizing: border-box;
+        justify-content: space-around;
+        border-radius: 50px;
+        align-items: center;
+        overflow: hidden;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al {
+        width: 130px;
+        height: 130px;
+        border: 0px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        transition: ease all .5s;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al p.text1 {
+        height: 166px;
+        padding: 140px 0 0 0;
+        font-size: 10px;
+        box-sizing: border-box;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al p.text2 {
+        padding-top: 10px;
+        height: 44px;
+        box-sizing: border-box;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al span.start {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../img/play_1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        border: 0px solid #000;
+        margin: 10px 50px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al span.stop {
+        display: none;
+        width: 30px;
+        height: 30px;
+        background: url(../img/stop_1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        border: 0px solid #000;
+        margin: 10px 50px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .content5 .inner-con5 {
+        width: 100%;
+        height: 100%;
+        padding: 240px 60px;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+    .content5 .inner-con5 .text-con {
+        width: 35%;
+        height: 100%;
+        border: 5px solid #eee;
+        border-radius: 50px;
+        padding: 20px 20px;
+        background-color: #f8fafc70;
+        box-shadow: -50px 50px #cccccc70;
+        position: relative;
+        left: -4000px;
+        transition: ease left .5s;
+    }
+    .content5 .inner-con5 .text-con p.con5-text1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .content5 .inner-con5 .text-con p.con5-text2 {
+        font-size: 20px;
+        margin-top: 0px;
+        font-weight: bolder;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+        padding: 120px 0;
+        background: #f8fafc;
+    }
+    .footer .top-title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+    .footer .inner-foo {
+        width: 100%;
+        height: 200px;
+        padding: 0 100px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer .inner-foo .Fo {
+        width: 240px;
+        height: 220px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background-color: #fff;
+        text-align: center;
+    }
+    .footer .inner-foo .Fo p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer .inner-foo .Fo p.bottom-ptag {
+        font-size: 13px;
+    }
+    .footer .inner-foo .Fo img {
+        width: 80px;
+        height: 80px;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .content1 .inner-con1 .left-con p.left-text1 {
+        font-size: 45px;
+        text-align: right;
+        font-family: sans-serif;
+    }
+    .content1 .inner-con1 .right-con p.right-text1 {
+        font-size: 45px;
+        text-align: left;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    .content2 .inner-con2 .left-text2 {
+        width: 267px;
+        border: 0px solid #fff;
+        padding: 130px 20px;
+        transition: ease left .6s;
+    }
+    .content2 .inner-con2 .left-text2 strong.title {
+        font-size: 25px;
+    }
+    .content2 .inner-con2 .left-text2 span.text {
+        display: block;
+        color: #fff;
+        font-size: 15px;
+        padding: 15px 0;
+    }
+    .content2 .inner-con2 .left-text2 p.Pt {
+        display: block;
+        color: #fff;
+        font-size: 12px;
+    }
+    .content3 {
+        width: 100%;
+        height: 250px;
+        padding: 150px 0 0 0;
+        text-align: center;
+        background: #f8fafc;
+    }
+    .content3 p.titlt2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content3 p.text {
+        font-size: 17px;
+        font-weight: normal;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .content3 .inner-con3 {
+        padding: 0 50px;
+    }
+    .content3 .inner-con3 .inner-con3_1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: none;
+        align-items: center;
+        background: #fff;
+        border-radius: 50px;
+        flex-wrap: wrap-reverse;
+    }
+    .content3 .inner-con3 .inner-con3_1 .Pe {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 0px solid #fff;
+        background: url(../img/mask.jpg) no-repeat 50%;
+        background-size: 100% 100%;
+        opacity: 0;
+        transition: ease opacity .9s;
+    }
+    .content3 .inner-con3 .inner-con3_1 .Pe p {
+        padding: 130px 0 0 0;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .content4 {
+        width: 100%;
+        height: auto;
+        padding: 240px 0 120px 0;
+        background: #f8fafc;
+        text-align: center;
+    }
+    .content4 p.titlt2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content4 .inner-con4 .inner-con4_1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0px;
+        box-sizing: border-box;
+        justify-content: space-around;
+        border-radius: 50px;
+        align-items: center;
+        overflow: hidden;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al {
+        width: 250px;
+        height: 250px;
+        border: 0px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        transition: ease all .5s;
+        margin: 60px;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al p.text1 {
+        height: auto;
+        padding: 0;
+        margin-top: 260px;
+        font-size: 10px;
+        color: #000;
+        box-sizing: border-box;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al p.text2 {
+        padding-top: 10px;
+        height: 44px;
+        box-sizing: border-box;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .content4 .inner-con4 .inner-con4_1 .album_7 {
+        margin-bottom: 130px;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al span.start {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url(../img/play_1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        border: 0px solid #000;
+        margin: 0px 105px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al span.stop {
+        display: none;
+        width: 40px;
+        height: 40px;
+        background: url(../img/stop_1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        border: 0px solid #000;
+        margin: 0px 195px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+        padding: 120px 0;
+        background: #f8fafc;
+    }
+    .footer .top-title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+    .footer .inner-foo {
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer .inner-foo .Fo {
+        width: 240px;
+        height: 220px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background-color: #fff;
+        text-align: center;
+    }
+    .footer .inner-foo .Fo p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer .inner-foo .Fo p.bottom-ptag {
+        font-size: 13px;
+    }
+    .footer .inner-foo .Fo img {
+        width: 80px;
+        height: 80px;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width:486px) {
+    .content1 .inner-con1 {
+        width: 100%;
+        height: 100%;
+        background: url(../img/nav-1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content1 .inner-con1 .left-con p.left-text1 {
+        font-size: 30px;
+        text-align: right;
+        font-family: sans-serif;
+    }
+    .content1 .inner-con1 .right-con p.right-text1 {
+        font-size: 30px;
+        text-align: left;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    .content2 .inner-con2 .left-text2 {
+        width: 172px;
+        border: 0px solid #fff;
+        padding: 130px 10px;
+        transition: ease left .6s;
+    }
+    .content2 .inner-con2 .left-text2 strong.title {
+        font-size: 25px;
+    }
+    .content2 .inner-con2 .left-text2 span.text {
+        display: block;
+        color: #fff;
+        font-size: 15px;
+        padding: 15px 0;
+    }
+    .content2 .inner-con2 .left-text2 p.Pt {
+        display: block;
+        color: #fff;
+        font-size: 12px;
+    }
+    .content3 {
+        width: 100%;
+        height: auto;
+        padding: 150px 0 0 0;
+        text-align: center;
+        background: #f8fafc;
+    }
+    .content3 p.titlt2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content3 p.text {
+        font-size: 17px;
+        font-weight: normal;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .content3 .inner-con3 {
+        padding: 0 50px;
+    }
+    .content3 .inner-con3 .inner-con3_1 {
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        justify-content: none;
+        align-items: center;
+        background: #fff;
+        border-radius: 50px;
+        flex-wrap: wrap-reverse;
+    }
+    .content3 .inner-con3 .inner-con3_1 .Pe {
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+        border: 0px solid #fff;
+        background: url(../img/mask.jpg) no-repeat 50%;
+        background-size: 100% 100%;
+        opacity: 0;
+        transition: ease opacity .9s;
+        margin: 20px;
+    }
+    .content3 .inner-con3 .inner-con3_1 .Pe p {
+        padding: 320px 0 0 0;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .content4 {
+        width: 100%;
+        height: auto;
+        padding: 240px 0 0 0;
+        background: #f8fafc;
+        text-align: center;
+    }
+    .content4 p.titlt2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .content4 .inner-con4 .inner-con4_1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0px;
+        box-sizing: border-box;
+        justify-content: space-around;
+        border-radius: 50px;
+        align-items: center;
+        overflow: hidden;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al {
+        width: 250px;
+        height: 250px;
+        border: 0px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        transition: ease all .5s;
+        margin: 60px;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al p.text1 {
+        height: auto;
+        padding: 0;
+        margin-top: 260px;
+        font-size: 10px;
+        color: #000;
+        box-sizing: border-box;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al p.text2 {
+        padding-top: 10px;
+        height: 44px;
+        box-sizing: border-box;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .content4 .inner-con4 .inner-con4_1 .album_7 {
+        margin-bottom: 130px;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al span.start {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url(../img/play_1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        border: 0px solid #000;
+        margin: 0px 105px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .content4 .inner-con4 .inner-con4_1 .Al span.stop {
+        display: none;
+        width: 40px;
+        height: 40px;
+        background: url(../img/stop_1.png) no-repeat 50%;
+        background-size: 100% 100%;
+        border: 0px solid #000;
+        margin: 0px 195px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+        padding: 120px 0;
+        background: #f8fafc;
+    }
+    .footer .top-title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 0px;
+    }
+    .footer .inner-foo {
+        width: 100%;
+        height: 100%;
+        padding: 0 133px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer .inner-foo .Fo {
+        width: 240px;
+        height: 220px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background-color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .footer .inner-foo .Fo p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer .inner-foo .Fo p.bottom-ptag {
+        font-size: 13px;
+    }
+    .footer .inner-foo .Fo img {
+        width: 80px;
+        height: 80px;
+        padding: 10px 0;
+    }
+    .content5 .inner-con5 {
+        width: 100%;
+        height: 100%;
+        padding: 240px 10px;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+    .content5 .inner-con5 .text-con {
+        width: 50%;
+        height: 80%;
+        border: 5px solid #eee;
+        border-radius: 50px;
+        padding: 20px 20px;
+        background-color: #f8fafc70;
+        box-shadow: -50px 50px #cccccc70;
+        position: relative;
+        left: -4000px;
+        transition: ease left .5s;
+    }
+    .content5 .inner-con5 .text-con p.con5-text1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .content5 .inner-con5 .text-con p.con5-text2 {
+        font-size: 20px;
+        margin-top: 0px;
+        font-weight: bolder;
+    }
+}
