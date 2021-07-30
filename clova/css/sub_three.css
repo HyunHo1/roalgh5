@@ -1,0 +1,216 @@
+@charset "uft-8";
+@import url(../css/sub_header.css);
+@import url(../css/footer.css);
+.blind{
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0,0,0,0);
+}
+main{}
+main #gallery{
+    height: 670px;
+    background: url(../img/bg_overview.png) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 255px;
+    box-sizing: border-box;
+}
+main #gallery h2{
+    width: 353px;
+    height: 44px;
+    margin-left: 485px;
+    background: url(../img/sub_three_A.png) no-repeat;
+    background-size: 353px 44px;
+    font-size: 24px;
+    color: #fff;
+}
+main #gallery .txt_area{
+    width: 1060px;
+    padding-left: 485px;
+    margin-top: 15px;
+}
+main #gallery .txt_area p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: -.3px;
+    color: #fff;
+}
+main #gallery .txt_area .btn_info{
+    margin-top: 50px;
+}
+main #gallery .txt_area .btn_info a{
+    display: inline-block;
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -.4px;
+}
+main #gallery .txt_area .btn_info .gl_btn{
+    margin-left: 5px;
+}
+main #gallery .txt_area .btn_info a::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 15px;
+    margin-right: 5px;
+    top: 1px;
+    background: url(../img/triangle.png) no-repeat;
+}
+/* info start */
+#info{
+    width: 1066px;
+    margin: 0 auto;
+    padding: 125px 0 220px;
+}
+#info h2{
+    width: 541px;
+    height: 47px;
+    margin: 0 auto;
+    background: url(../img/sub_three_B.png) no-repeat;
+    background-size: 541px 47px;
+    font-size: 24px;
+    color: #fff;
+}
+#info p{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -.4px;
+}
+#info p span{
+    display: inline-block;
+    padding-top: 8px;
+}
+#info p em{
+    font-style: normal;
+    font-weight: 700;
+}
+#info .diagram_area{
+    text-align: center;
+    margin-top: 90px;
+}
+#info .diagram_area img{
+    width: 1066px;
+    vertical-align: top;
+}
+#info .diagram_area .btn_area a{
+    display: inline-block;
+    width: 320px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    background-color: #0be18a;
+}
+#info .diagram_area .btn_area .sk{
+    margin-left: 155px;
+}
+#info .diagram_area .btn_area .in::before{
+    display: inline-block;
+    width: 234px;
+    height: 19px;
+    background: url(../img/btn_text.png) no-repeat;
+    background-size: 234px 19px;
+    vertical-align: top;
+    margin-top: 21px;
+    content: "";
+}
+#info .diagram_area .btn_area .sk::before{
+    display: inline-block;
+    width: 156px;
+    height: 18px;
+    background: url(../img/btn_text1.png) no-repeat;
+    background-size: 156px 18px;
+    vertical-align: top;
+    margin-top: 21px;
+    content: "";
+}
+#info .diagram_area .btn_area .in::after{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background: url(../img/span.tr.png) no-repeat;
+    vertical-align: top;
+    margin-top: 23px;
+    content: ""; 
+}
+#info .diagram_area .btn_area .sk::after{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background: url(../img/span.tr.png) no-repeat;
+    vertical-align: top;
+    margin-top: 22px;
+    content: ""; 
+}
+#info .explanation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+#info .explanation li a{
+    display: block;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -.2px;
+    color: #999;
+}
+#info .explanation li .console::before{
+    display: block;
+    width: 130px;
+    height: 209px;
+    background: url(../img/img_console.png) no-repeat;
+    background-size: 130px 209px;
+    content: "";
+}
+#info .explanation li .bot::before{
+    display: block;
+    width: 130px;
+    height: 209px;
+    background: url(../img/img_chatbot.png) no-repeat;
+    background-size: 130px 209px;
+    content: "";
+}
+#info .explanation li .skill::before{
+    display: block;
+    width: 120px;
+    height: 209px;
+    background: url(../img/img_skillstore.png) no-repeat;
+    background-size: 120px 209px;
+    content: "";
+}
+#info .explanation li .platform::before{
+    display: block;
+    width: 120px;
+    height: 209px;
+    background: url(../img/img_rnd.png) no-repeat;
+    background-size: 120px 209px;
+    content: "";
+}
+#info .explanation li a .link_text{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+#info .explanation li a .link_text::after{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    background: url(../img/triangle_gray.png) no-repeat;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-left: 4px;
+    content: "";
+}
