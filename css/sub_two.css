@@ -1,0 +1,119 @@
+@charset "uft-8";
+@import url(../css/sub_header.css);
+@import url(../css/footer.css);
+
+#nav_area{}
+#nav_area ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+}
+#nav_area ul li{
+    margin-top: 95px;
+}
+#nav_area ul li{
+    cursor: pointer;
+}
+#nav_area ul li img{
+    width: 140px;
+    height: 140px;
+}
+#nav_area ul .new{
+    position: relative;
+}
+#nav_area ul .clock::before{
+    content: "";
+    width: 42px;
+    height: 18px;
+    position: absolute;
+    background: url(/img/new.png) no-repeat;
+    /* top: 15px; */
+    left: 49px;
+}
+#nav_area ul .lamp::before{
+    content: "";
+    width: 42px;
+    height: 18px;
+    position: absolute;
+    background: url(/img/new.png) no-repeat;
+    /* top: 15px; */
+    left: 49px;
+}
+#nav_area ul .sub_bar{
+    display: inline-block;
+    width: 1px;
+    height: 95px;
+    margin-top: 105px;
+    background: #eee;
+}
+#info_area{
+    padding-bottom: 190px;
+}
+#info_area .product{
+    overflow: hidden;
+    height: 390px;
+    text-align: center;
+    margin-top: 10px;
+}
+#info_area .product img{
+    max-width: 1420px;
+    height: 390px;
+}
+#info_area .info_clock{
+    background: #fafaf7;
+    cursor: pointer;
+}
+#info_area .info_lamp{
+    background: #dfdbd7;
+    cursor: pointer;
+}
+#info_area .info_friends{
+    background: #fafafa;
+    cursor: pointer;
+}
+#info_area .info_wave{
+    background: #e8ebf1;
+    cursor: pointer;
+}
+#info_area .info_mini{
+    background: #f7f6f5;
+    cursor: pointer;
+}
+#info_area .info_doraemon_edition img{
+    max-width: 2000px;
+}
+#info_area .info_doraemon_edition{
+    cursor: pointer;
+}
+#info_area .info_minions_edition{
+    background: #ffbe46;
+    cursor: pointer;
+}
+#info_area .info_friends_plus{
+    background: #ddd4c4;
+    cursor: pointer;
+}
+#info_area .info_on_plus{
+    background: #dee1e8;
+    cursor: pointer;
+}
+#info_area .info_clock_plus{
+    background: #fafaf7;
+    cursor: pointer;
+}
+#info_area .Half{
+    display: flex;
+    margin-top: 10px;
+}
+#info_area .Half .showroom{
+    width: 50%;
+    text-align: right;
+    background: #eeeef0;
+    cursor: pointer;
+}
+#info_area .Half .guide{
+    width: 50%;
+    text-align: left;
+    background: #f2f4f9;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+@charset "uft-8";
+
+/* footer start */
+footer{
+    background: #191919;
+    color: #666;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 40px 0;
+    letter-spacing: -.3px;
+}
+footer .inner{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    
+    margin: 0 auto;
+}
+footer .inner .f_logo{
+    display: block;
+    width: 145px;
+    height: 20px;
+}
+footer .inner .sns{
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+}
+footer .foo_info{
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+footer .foo_info .f_txt_L{
+    width: 321px;
+}
+footer .foo_info .f_txt_L a{
+    display: inline-block;
+    color: #666;
+}
+footer .foo_info .bar{
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 8px;
+    background: #2c2c2c;
+}
+footer .foo_info .f_txt_M{}
+footer .foo_info .f_txt_M strong{
+    font-weight: 900;
+}
+footer .foo_info .f_txt_R{}
+footer .foo_info .f_txt_R a{
+    color: #666;
+}
