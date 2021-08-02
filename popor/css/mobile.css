@@ -1,0 +1,152 @@
+@charset "uft-8";
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    header .nav_bar{top: 3%; right: 3%}
+    /* introduce start */
+    #introduce{}
+    #introduce article{padding: 0;}
+    #introduce article .inner_left .skill_bar {padding: 0;}
+    #introduce article .inner_right .img_box{width: 250px; height: 250px;}
+    #introduce article .inner_right .my_name{font-size: 30px; margin-bottom: 0px;}
+    #introduce article .inner_right .text_box{text-align: center;}
+    #introduce article .inner_right .text_box p{font-size: 17px; line-height: 30px; font-weight: 600;}
+    #introduce article .inner_right .text_box .career{margin: 10px 0; box-sizing: border-box;}
+    /* clova start */
+    #clova article{padding: 0;}
+    #clova article .cl_left_area{width: 60%;}
+    #clova article .cl_left_area img{}
+    #clova article .cl_right_area{width: 40%;}
+    #clova article .cl_right_area .logo{} 
+    #clova article .cl_right_area .logo img{width: 50%;}
+    #clova article .cl_right_area .link_area{}
+    #clova article .cl_right_area .link_area button{width: 90px;}
+    /* jenesis start */
+    #jenesis article{padding: 0;}
+    #jenesis article .je_left_area{width: 60%;}
+    #jenesis article .je_left_area img{}
+    #jenesis article .je_right_area{width: 40%;}
+    #jenesis article .je_right_area .logo{}
+    #jenesis article .je_right_area .link_area{}
+    #jenesis article .je_right_area .link_area button{}
+    /* invoa start */
+    #invoa article{padding: 0;}
+    #invoa article .in_left_area{width: 60%;}
+    #invoa article .in_left_area img{}
+    #invoa article .in_right_area{width: 40%;}
+    #invoa article .in_right_area .logo{}
+    #invoa article .in_right_area .link_area{}
+    #invoa article .in_right_area .link_area button{}
+    /* contacts start */
+    #contacts{}
+    #contacts article{}
+    #contacts article h2{width: 50%; font-size: 60px; color: #fff;}
+    #contacts article .info{font-size: 28px;}
+}
+@media only screen and (min-width:481px) and (max-width:767px){
+    header .nav_bar{top: 2%; right: 4%}
+    /* introduce start */
+    #introduce{}
+    #introduce article{padding: 0; background: url(../img/me.png) no-repeat; background-size: 100% 100%; flex-wrap: wrap-reverse; color: #fff;}
+    #introduce article h2{display: none;}
+    #introduce article .inner_left strong{margin-bottom: 20px;}
+    #introduce article .inner_left{width: 100%; padding: 0 50px; box-sizing: border-box;}
+    #introduce article .inner_left .skill_bar {padding: 0;}
+    #introduce article .inner_right{width: 100%;}
+    #introduce article .inner_right strong{margin-bottom: 20px;}
+    #introduce article .inner_right .img_box{display: none;}
+    #introduce article .inner_right .my_name{font-size: 30px; margin-bottom: 0px;}
+    #introduce article .inner_right .text_box{text-align: center;}
+    #introduce article .inner_right .text_box p{font-size: 17px; line-height: 30px; font-weight: 600;}
+    #introduce article .inner_right .text_box .career{margin: 10px 0; box-sizing: border-box;}
+    /* clova start */
+    #clova{}
+    #clova article{}
+    #clova article h2{display: none;}
+    #clova article .cl_left_area{width: 100%;}
+    #clova article .cl_left_area img{width: 100%;}
+    #clova article .cl_right_area{width: 100%; text-align: center;}
+    #clova article .cl_right_area .logo{margin-bottom: 20px;} 
+    #clova article .cl_right_area .logo img{width: 250px;} 
+    #clova article .cl_right_area .link_area{}
+    #clova article .cl_right_area .link_area button{}
+    /* jenesis start */
+    #jenesis{}
+    #jenesis article{}
+    #jenesis article h2{display: none;}
+    #jenesis article .je_left_area{width: 100%;}
+    #jenesis article .je_left_area img{width: 100%;}
+    #jenesis article .je_right_area{width: 100%; text-align: center;}
+    #jenesis article .je_right_area .link_area{}
+    #jenesis article .je_right_area .link_area button{}
+    /* invoa start */
+    #invoa{}
+    #invoa article{}
+    #invoa article h2{display: none;}
+    #invoa article .in_left_area{width: 100%;}
+    #invoa article .in_left_area img{width: 100%;}
+    #invoa article .in_right_area{width: 100%; text-align: center;}
+    #invoa article .in_right_area .link_area{}
+    #invoa article .in_right_area .link_area button{}
+    /* contacts start */
+    #contacts{}
+    #contacts article{flex-flow: wrap; align-items: center;}
+    #contacts article h2{width: 90%; height: 50%; margin: 0 auto; padding: 140px 0; border-bottom: 1px solid #fff; box-sizing: border-box; font-size: 80px;}
+    #contacts article .info{width: 100%; height: 50%; padding: 95px 0; box-sizing: border-box;}
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+    header .nav_bar{top: 3%; right: 10%}
+    .sub_text{font-size: 20px;}
+    .explanation_text{font-size: 16px;}
+    #home p{height: 25px; left: 10%; font-size: 17px; }
+    /* introduce start */
+    #introduce{}
+    #introduce article{padding: 0; background: url(../img/me.png) no-repeat; background-size: 100% 100%; flex-wrap: wrap-reverse; color: #fff;}
+    #introduce article h2{display: none;}
+    #introduce article .inner_left strong{font-size: 30px; margin-bottom: 20px;}
+    #introduce article .inner_left{width: 100%; padding: 0 20px; box-sizing: border-box;}
+    #introduce article .inner_left .skill_bar {padding: 0;}
+    #introduce article .inner_right{width: 100%;}
+    #introduce article .inner_right strong{font-size: 30px; margin-bottom: 20px;}
+    #introduce article .inner_right .img_box{display: none;}
+    #introduce article .inner_right .my_name{font-size: 20px; margin-bottom: 0px;}
+    #introduce article .inner_right .text_box{text-align: center;}
+    #introduce article .inner_right .text_box p{font-size: 13px; line-height: 30px; font-weight: 600;}
+    #introduce article .inner_right .text_box .career{margin: 10px 0; box-sizing: border-box;}
+    /* clova start */
+    #clova{}
+    #clova article{}
+    #clova article h2{display: none;}
+    #clova article .cl_left_area{width: 100%;}
+    #clova article .cl_left_area img{width: 100%;}
+    #clova article .cl_right_area{width: 100%; text-align: center;}
+    #clova article .cl_right_area .logo{margin-bottom: 20px;} 
+    #clova article .cl_right_area .logo img{width: 200px;} 
+    #clova article .cl_right_area .link_area{}
+    #clova article .cl_right_area .link_area button{width: 70px; font-size: 10px;}
+    /* jenesis start */
+    #jenesis{}
+    #jenesis article{}
+    #jenesis article h2{display: none;}
+    #jenesis article .je_left_area{width: 100%;}
+    #jenesis article .je_left_area img{width: 100%;}
+    #jenesis article .je_right_area{width: 100%; text-align: center;}
+    #jenesis article .je_right_area .logo{margin-bottom: 20px;} 
+    #jenesis article .je_right_area .logo img{width: 200px;} 
+    #jenesis article .je_right_area .link_area{}
+    #jenesis article .je_right_area .link_area button{width: 70px; font-size: 10px;}
+    /* invoa start */
+    #invoa{}
+    #invoa article{}
+    #invoa article h2{display: none;}
+    #invoa article .in_left_area{width: 100%;}
+    #invoa article .in_left_area img{width: 100%;}
+    #invoa article .in_right_area{width: 100%; text-align: center;}
+    #invoa article .in_right_area .logo{margin-bottom: 20px;} 
+    #invoa article .in_right_area .logo img{width: 200px;} 
+    #invoa article .in_right_area .link_area{}
+    #invoa article .in_right_area .link_area button{width: 70px; font-size: 10px;}
+    /* contacts start */
+    #contacts{}
+    #contacts article{flex-flow: wrap; align-items: center;}
+    #contacts article h2{width: 80%; height: 50%; margin: 0 auto; padding: 180px 0; border-bottom: 1px solid #fff; box-sizing: border-box; font-size: 50px;}
+    #contacts article .info{width: 100%; height: 50%; padding: 135px 0; font-size: 25px; box-sizing: border-box;}
