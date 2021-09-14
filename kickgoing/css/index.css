@@ -1,0 +1,134 @@
+@charset "uft-8";
+@import url(../css/header.css);
+@import url(../css/footer.css);
+/* home start */
+#home{width: 100%; height: 969px; background: url(../img/Img_Home.png) no-repeat #00c2ab; background-size: contain; background-position: center; position: relative; box-sizing: border-box;}
+#home .text_box{position: absolute; top: 40%; left: 20%;}
+#home .text_box span{display: block; font-size: 48px; font-weight: bold; font-stretch: normal; color: #fff;}
+#home .img_text{margin: 20px 0;}
+#home a{display: inline-block; padding: 15px 35px; text-align: center; font-size: 20px; font-weight: 600; color: #fff; border: 2px solid #fff; border-radius: 15px; box-sizing: border-box;}
+#home a:hover{opacity: .7; transition: .7s;}
+#home .google{margin-right: 25px;}
+#home .google::before{display: inline-block; width: 16px; height: 20px; margin-right: 10px; vertical-align: middle; background: url(../img/Img_Googleplay.png) no-repeat ; background-size: cover; content: "";}
+#home .app::before{display: inline-block; width: 16px; height: 20px; margin-right: 10px; vertical-align: middle; background: url(../img/Img_Appstore.png) no-repeat ; background-size: cover; content: "";}
+/* service start */
+#service{}
+#service article{padding: 200px 0; box-sizing: border-box;}
+#service article h2{text-align: center; font-size: 45px;}
+#service article p{text-align: center; font-size: 24px; padding: 30px 0; box-sizing: border-box;}
+#service article img{display: block; width: 280px; height: 280px; margin: 0 auto;}
+#service article ul{display: flex; justify-content: space-between; padding: 0 350px;} 
+#service article ul li{width: 300px; text-align: center; font-size: 22px;  box-sizing: border-box;}
+/* #service article ul li:nth-child(2){margin: 0 100px;} */
+/* tutorial start */
+#tutorial{}
+#tutorial article{padding: 0 0 60px 0;}
+#tutorial article h2{font-size: 45px; text-align: center; padding-bottom: 60px;}
+#tutorial article ul{display: flex; justify-content: center; flex-flow: wrap; align-items:flex-start;}
+#tutorial article ul li{display: flex; width: 34%; align-items: center; padding: 0 50px; box-sizing: border-box;}
+#tutorial article ul li:nth-child(3){margin-top: 30px;}
+#tutorial article ul li:nth-child(4){margin-top: 30px;}
+#tutorial article ul li img{display: block; width: 40%; }
+#tutorial article ul li .text_box{padding: 0 28px; box-sizing: border-box;}
+#tutorial article ul li .text_box strong{display: inline-block; font-size: 26px;}
+#tutorial article ul li .text_box span{display: inline-block; font-size: 18px; margin-top: 10px;}
+/* safety start */
+#safety{}
+#safety article{padding-top: 200px; background: #f2f4f7;}
+#safety article h2{font-size: 45px; text-align: center; padding-bottom: 60px;}
+#safety article ul{width: 30%; padding: 40px 65px 150px; margin: 0 auto; background: #fff; box-shadow: 5px 0px 5px #888888; border-radius: 10px; box-sizing: border-box;}
+#safety article ul li{font-size: 32px; padding: 30px 0 15px 0; border-bottom: 1px solid #eee; box-sizing: border-box;}
+#safety article ul li::before{display: inline-block; width: 60px; height: 60px; vertical-align: middle; background: url(../img/Icon_Check.png) no-repeat; background-size: cover; content: "";}
+/* servicearea start */
+#servicearea{}
+#servicearea article{padding: 130px 0; background: url(../img/Img_Area.jpg) no-repeat; background-size: 100% 100%; box-sizing: border-box;}
+#servicearea article h2{font-size: 45px; text-align: left; padding: 0 300px 60px; color: #fff; box-sizing: border-box;}
+#servicearea article .txt_box{padding: 0 300px; font-size: 24px;}
+#servicearea article .txt_box strong{display: block; color: #fff; font-size: 30px;}
+#servicearea article .txt_box p{ color: #fff; padding: 25px 0 0 0 ; box-sizing: border-box;}
+#servicearea article .txt_box a{display: inline-block; color: #fff; border: 1px solid #fff; font-size: 18px; font-weight: 700; padding: 15px 35px; border-radius: 10px; margin-top: 25px;}
+#servicearea article .txt_box a:hover{opacity: .7; transition: .7s;}
+#servicearea article .txt_box a::after{display: inline-block; width: 20px; height: 20px; background: url(../img/Icon_Arrow_Right.png) no-repeat; background-size: cover; position: relative; top: 4px; left: 7px; content: "";}
+
+/* madia */
+@media only screen and (min-width:768px) and (max-width:1024px){
+    /* home start */
+    #home .text_box{position: absolute; top: 30%; left: 5%;}
+    /* service start */
+    #service article ul{display: flex; justify-content: space-between; padding: 0 30px; box-sizing: border-box;}
+    #service article ul li{width: 33.3333%; text-align: center; font-size: 22px;  box-sizing: border-box;}
+    #service article img{display: block; width: 230px; height: 230px; margin: 0 auto;}
+    /* tutorial start */
+    #tutorial article ul li{width: 45%; padding: 0;}
+    /* safety start */
+    #safety article ul{width: 60%;}
+    /* servicearea start */
+    #servicearea article{padding-left:  50px;}
+    #servicearea article h2{padding: 0;}
+    #servicearea article .txt_box{padding: 0; }
+}
+@media only screen and (min-width:481px) and (max-width:767px){
+    /* home start */
+    #home{background-size: 170%; background-position: bottom right;}
+    #home .text_box{width: 100%; position: absolute; top: 30%; left: 0%; text-align: center;}
+    /* service start */
+    #service article{padding: 100px 0;}
+    #service article h2{font-size: 35px;}
+    #service article p{font-size: 23px; padding: 30px 10px;}
+    #service article ul{display: flex; justify-content: space-between; padding: 0 10px; box-sizing: border-box;}
+    #service article ul li{width: 33%; text-align: center; font-size: 18px;  box-sizing: border-box;}
+    #service article img{display: block; width: 160px; height: 160px; margin: 0 auto;}
+    /* tutorial start */
+    #tutorial article h2{font-size: 35px;}
+    #tutorial article ul li{width: 48%; padding: 0; flex-wrap: wrap; justify-content: center;}
+    #tutorial article ul li .text_box{text-align: center; padding: 0 10px;}
+    #tutorial article ul li img{width: 60%;}
+    #tutorial article ul li .text_box strong{margin-top: 10px;}
+    /* safety start */
+    #safety article{padding-top: 100px;}
+    #safety article h2{font-size: 35px;}
+    #safety article ul{width: 80%; padding: 40px 40px 80px;}
+    #safety article ul li{font-size: 24px;}
+    /* servicearea start */
+    #servicearea article{padding: 100px 20px;}
+    #servicearea article h2{font-size: 35px; padding: 0;}
+    #servicearea article .txt_box{padding: 0; font-size: 18px;}
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+    /* home start */
+    #home{height: 882px; background-size: 190%; background-position: bottom right;}
+    #home .text_box{width: 100%; position: absolute; top: 30%; left: 0%; text-align: center;}
+    #home .text_box img{width: 210px; height: 85px;}
+    #home .text_box span{font-size: 30px;}
+    #home a{padding: 12px 24px;  font-size: 14px; font-weight: 600; color: #fff; }
+    #home a:hover{opacity: .7; transition: .7s;}
+    #home .google{margin-right: 0px;}
+    #home .google::before{width: 16px; height: 20px; margin-right: 10px;}
+    #home .app{margin-top: 10px;}
+    #home .app::before{width: 16px; height: 20px; margin-right: 10px;}
+    /* service start */
+    #service article{padding: 80px 0;}
+    #service article h2{font-size: 28px;}
+    #service article p{font-size: 20px; padding: 30px 10px;}
+    #service article ul{display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 10px; box-sizing: border-box;}
+    #service article ul li{width: 90%; margin: 0 auto; text-align: center; font-size: 18px;  box-sizing: border-box;}
+    #service article img{display: block; width: 200px; height: 200px; margin: 0 auto;}
+    /* tutorial start */
+    #tutorial article h2{font-size: 28px; padding:40px 0;}
+    #tutorial article ul li{width: 100%; padding: 0; flex-wrap: wrap; justify-content: center; margin: 10px 0;}
+    #tutorial article ul li .text_box{text-align: center; padding: 0 20px;}
+    #tutorial article ul li img{width: 50%;}
+    #tutorial article ul li .text_box strong{margin-top: 10px; font-size: 20px;}
+    #tutorial article ul li .text_box span{font-size: 17px;}
+    /* safety start */
+    #safety article{padding-top: 100px;}
+    #safety article h2{font-size: 28px;}
+    #safety article ul{width: 80%; padding: 40px 40px 80px;}
+    #safety article ul li{font-size: 20px;}
+    /* servicearea start */
+    #servicearea article{padding: 80px 10px;}
+    #servicearea article h2{font-size: 28px; padding: 0;}
+    #servicearea article .txt_box{padding: 0; font-size: 18px;}
+    #servicearea article .txt_box strong{font-size: 28px;}
+    #safety article ul li::before{width: 40px; height: 40px; }
+}

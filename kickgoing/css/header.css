@@ -1,0 +1,24 @@
+@charset "uft-8";
+
+header{display: flex; width: 100%; justify-content: space-between; padding: 0 350px; align-items: center; position: fixed; z-index: 10; box-sizing: border-box; background: #00c2ab;}
+header h1{}
+header h1 img{width: 144px; height: 24px;}
+header nav{}
+header nav ul{display: flex;}
+header nav ul li{padding: 18px 15px; box-sizing: border-box;}
+header nav ul li a{font-size: 18px; font-weight: 500; color: #fff;}
+header nav ul li a:hover{font-weight: 700;}
+header .bar{display: none; cursor: pointer;}
+header .bar span{display: block; width: 25px; height: 3px; background: #fff; box-sizing: border-box; }
+header .bar span:nth-child(2){width: 17px; margin: 5px 0;}
+header .bar:hover span:nth-child(2){width: 25px; transition: .5s;}
+
+@media only screen and (max-width:1024px){
+    header{padding: 0; flex-flow: wrap; align-items: center; background: #00c2ab;}
+    header h1{width: 100%; text-align: center; margin-top: 10px;}
+    header nav{ width: 100%; position: relative;}
+    header nav ul{display: none; justify-content: space-around; flex-direction: column;}
+    header nav ul.active{display: flex;}
+    header nav ul li{text-align: center;}
+    header .bar{display: block; position: absolute; right: 10%; top: 20px;}
+}

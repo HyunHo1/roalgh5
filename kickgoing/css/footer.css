@@ -1,0 +1,72 @@
+@charset "uft-8";
+
+/* footer start */
+footer{background: #20232b; padding: 80px 0 40px 0;}
+footer .inner{width: 1200px; margin: 0 auto;}
+footer .inner ul{display: flex; width: 100%; justify-content: space-between;}
+footer .inner ul li{color: #fff; font-size: 16px;}
+footer .inner ul li strong{font-size: 20px; padding-bottom: 5px;}
+footer .inner ul li a{display: block; color: #fff; font-weight: 300; padding-top: 8px; box-sizing: border-box;}
+footer .inner ul li a:hover{opacity: .7; transition: .3s;}
+footer .inner ul li span{display: block; padding-top: 8px; box-sizing: border-box;}
+footer .inner ul .sns a{display: inline-block; width: 32px; height: 32px;  padding: 0; margin-left: 25px; box-sizing: border-box;}
+footer .inner ul .sns .instargram{ background: url(../img/Img_Instagram.png) no-repeat; background-size: 100% 100%;}
+footer .inner ul .sns .youtube{width: 36px; height: 32px; background: url(../img/Img_Youtube.png) no-repeat; background-size: contain; background-position: center;}
+footer .inner ul .sns .facebook{ background: url(../img/Img_Facebook.png) no-repeat; background-size: 100% 100%;}
+footer .inner ul .sns .blog{ background: url(../img/Img_Blog.png) no-repeat; background-size: 100% 100%;}
+footer .inner .policy{padding: 70px 0 12px;}
+footer .inner .policy a{display: inline-block; color: #fff; margin: 0 10px; font-size: 14px;}
+footer .inner .policy a:hover{opacity: .7; transition: .3s;}
+footer .inner .policy a:nth-child(1){margin-left: 0;}
+footer .inner .company{display: flex; justify-content: space-between; font-size: 14px; color: #bbb;}
+footer .inner .company .bar{display: inline-block; width: 1px; height: 15px; background-color: #bbb; vertical-align: middle; margin: 0 8px;}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    footer{ padding: 40px 20px;}
+    footer .inner .policy{width: 90%; padding-top: 10px; margin: 0 auto;}
+    footer .inner{width: 100%; margin: 0 auto;}
+    footer .inner .company{flex-wrap: wrap;}
+    footer .inner .company .com_inner{padding: 12px 0 0 0;}
+    footer .inner ul{flex-wrap: wrap;}
+    footer .inner ul .sns{width: 100%; padding-top: 20px; text-align: center;}
+    footer .inner ul .sns .instargram{margin: 0;}
+    footer .inner .company .bar{display: none;}
+    footer .inner .company .com_sub{display: flex; width: 100%; flex-wrap: wrap; text-align: center;}
+    footer .inner .company p span{display: block; width: 50%; margin: 5px 0;}
+    footer .inner .company .com_inner{width: 100%; text-align: center;}
+}
+@media only screen and (min-width:481px) and (max-width:767px){
+    footer{ padding: 40px 20px;}
+    footer .inner{width: 100%; margin: 0 auto;}
+    footer .inner ul{flex-wrap: wrap;}
+    footer .inner ul li{width: 50%; margin-top: 20px;}
+    footer .inner ul li:nth-child(1){margin-top: 0;}
+    footer .inner ul li:nth-child(2){margin-top: 0;}
+    footer .inner ul .sns{width: 100%; padding-top: 20px; text-align: center;}
+    footer .inner ul .sns .instargram{margin: 0;}
+    footer .inner .policy{width: 100%; padding-top: 10px; margin: 0 auto; text-align: center;}
+    footer .inner .company{flex-wrap: wrap;}
+    footer .inner .company .com_inner{padding: 12px 0 0 0;}
+    footer .inner .company .bar{display: none;}
+    footer .inner .company .com_sub{display: flex; width: 100%; flex-wrap: wrap; text-align: center;}
+    footer .inner .company p span{display: block; width: 50%; margin: 5px 0;}
+    footer .inner .company .com_inner{width: 100%; text-align: center;}
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+    footer{ padding: 40px 20px;}
+    footer .inner{width: 100%; margin: 0 auto;}
+    footer .inner ul{flex-wrap: wrap;}
+    footer .inner ul li{width: 50%; margin-top: 20px; text-align: center; font-size: 12px;}
+    footer .inner ul li:nth-child(1){margin-top: 0;}
+    footer .inner ul li:nth-child(2){margin-top: 0;}
+    footer .inner ul li strong{font-size: 20px;}
+    footer .inner ul .sns{width: 100%; padding-top: 20px; text-align: center;}
+    footer .inner ul .sns .instargram{margin: 0;}
+    footer .inner .policy{width: 100%; padding-top: 10px; margin: 0 auto; text-align: center;}
+    footer .inner .policy a{font-size: 12px; margin: 5px;}
+    footer .inner .company{flex-wrap: wrap;  font-size: 12px;}
+    footer .inner .company .com_inner{padding: 12px 0 0 0;}
+    footer .inner .company .bar{display: none;}
+    footer .inner .company .com_sub{display: flex; width: 100%; flex-wrap: wrap; text-align: center;}
+    footer .inner .company p span{display: block; width: 50%; margin: 5px 0;}
+    footer .inner .company .com_inner{width: 100%; text-align: center;}
+}
