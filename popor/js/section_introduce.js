@@ -3,6 +3,7 @@ $(window).scroll(function(){
     left_bar = $('#introduce .s_bar .bar');
     right_box = $('#introduce .inner_right');
     clova = $('#clova article');
+    kickgoing = $('#kickgoing article');
     jenesis = $('#jenesis article');
     invoa = $('#invoa article');
 
@@ -17,6 +18,9 @@ $(window).scroll(function(){
     }
     if (window.pageYOffset + $(window).height() > clova.offset().top + 20 && window.pageYOffset < clova.offset().top + $('#clova article').height() - 20) {
         clova.addClass('active');
+    }
+    if (window.pageYOffset + $(window).height() > kickgoing.offset().top + 20 && window.pageYOffset < kickgoing.offset().top + $('#kickgoing article').height() - 20) {
+        kickgoing.addClass('active');
     }
     if (window.pageYOffset + $(window).height() > jenesis.offset().top + 20 && window.pageYOffset < jenesis.offset().top + $('#jenesis article').height() - 20) {
         jenesis.addClass('active');
