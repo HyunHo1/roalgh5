@@ -1,6 +1,6 @@
 @charset "uft-8";
 
-#wrap{height: 600%;}
+
 /* header start */
 header{}
 header .nav_bar{width:30px; position: fixed;  top: 2.5%; right: 1.4%; cursor: pointer; z-index: 11;}
