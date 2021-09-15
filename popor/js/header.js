@@ -19,9 +19,10 @@ $(document).ready(function(){
 $(document).ready(function() {
     var goTopSec2 = $("#introduce article").offset().top;
     var goTopSec3 = $("#clova article").offset().top;
-    var goTopSec4 = $("#jenesis article").offset().top;
-    var goTopSec5 = $("#invoa article").offset().top;
-    var goTopSec6 = $("#contacts article").offset().top;
+    var goTopSec4 = $("#kickgoing article").offset().top;
+    var goTopSec5 = $("#jenesis article").offset().top;
+    var goTopSec6 = $("#invoa article").offset().top;
+    var goTopSec7 = $("#contacts article").offset().top;
     var menuLi = $('#gnb ul li');
 
     console.log(goTopSec2);
@@ -43,6 +44,9 @@ $(document).ready(function() {
     });
     menuLi.eq(5).on('click', function() {
         $("html,body").animate({ scrollTop: goTopSec6 + 1 }, 1000);
+    });
+    menuLi.eq(6).on('click', function() {
+        $("html,body").animate({ scrollTop: goTopSec7 + 1 }, 1000);
     });
     menuLi.eq(6).on('click', function() {
         $("html,body").animate({ scrollTop: goTofoot + 1 }, 1000);
