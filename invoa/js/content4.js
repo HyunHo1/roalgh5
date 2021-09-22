@@ -23,11 +23,3 @@ $(document).ready(function() {
     });
 });
 
-$(window).scroll(function() {
-    lt4 = $('.content4 .inner-con4 .Al');
-    if (window.pageYOffset + $(window).height() > lt4.offset().top + 20 && window.pageYOffset < lt4.offset().top + $('.content4 .inner-con4').height() - 20) {
-        lt4.addClass('active1');
-    } else {
-        lt4.removeClass('active1');
-    }
-})
