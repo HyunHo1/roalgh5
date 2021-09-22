@@ -1,4 +1,8 @@
 @charset "uft-8";
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+body{
+    font-family: 'NanumSquare', sans-serif;
+}
 .header {
     width: 100%;
     height: 70px;
@@ -8,17 +12,18 @@
 }
 
 .header .inner-header {
-    width: 98%;
+    width: 100%;
     height: 70px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
     align-items: center;
 }
 
 .header .inner-header .left-box {
     width: auto;
-    height: 30px;
+    /* height: 30px; */
     border: 0px solid #fff;
 }
 
@@ -82,14 +87,15 @@
 }
 
 .sub-inner.active {
-    width: 460px;
+    width: 360px;
 }
 
 .sub-inner ul li.top {
-    width: 420px;
+    width: 360px;
     height: 70px;
     display: flex;
-    margin: 20px 20px 0 20px;
+    padding: 20px 20px 60px 20px;
+    box-sizing: border-box;
     border-bottom: 2px solid #ccc;
     justify-content: space-between;
 }
@@ -349,43 +355,43 @@
 .content4 .inner-con4 .inner-con4_1 .album_1 {
     background: url(../img/sing_1.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_2 {
     background: url(../img/sing_2.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_3 {
     background: url(../img/sing_3.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_4 {
     background: url(../img/sing_4.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_5 {
     background: url(../img/sing_5.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_6 {
     background: url(../img/sing_6.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_7 {
     background: url(../img/sing_7.jpg) no-repeat 50%;
     background-size: 100% 100%;
-    left: -4000px;
+    
 }
 
 .content4 .inner-con4 .inner-con4_1 .album_1.active1 {
